@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="starsOS —— 基于 Windows 11 深度定制的星空操作系统，附浏览器与云盘生态。你的星空，从系统开始。">
+<title>starsOS · 星空操作系统</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='45' r='16' fill='%23fcd34d'/><path d='M50 20v50M25 45h50' stroke='%23fcd34d' stroke-width='6'/><ellipse cx='50' cy='66' rx='26' ry='8' stroke='%239ae3ff' stroke-width='3' fill='none' transform='rotate(-15 50 66)'/></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="sky"></canvas>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="brand"><span class="brand-star">★</span> starsOS</div>
+    <nav>
+      <a href="#system">系统</a>
+      <a href="#ecosystem">生态</a>
+      <a href="#download">下载</a>
+      <a href="#guide">安装</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <h1 class="hero-title">stars<span class="gold">OS</span></h1>
+  <p class="hero-sub">星空之下 · 操作系统</p>
+  <p class="hero-desc">基于 Windows 11 25H2 深度定制 —— 星海深空主题 · 双账户生态 · 为你而生的系统</p>
+  <div class="hero-actions">
+    <a class="btn primary" href="#download">立即下载</a>
+    <a class="btn ghost" href="#system">了解系统</a>
+  </div>
+  <div class="hero-meta">v1.0 · Win11 25H2 · 中文</div>
+</section>
+
+<section class="section" id="system">
+  <h2 class="sec-title">为星空而生的 <span class="gold">系统</span></h2>
+  <p class="sec-sub">不止是换一张壁纸 —— 整套品牌化定制</p>
+  <div class="feat-grid">
+    <div class="feat-card">
+      <div class="feat-em">🌌</div>
+      <h3>星海深空主题</h3>
+      <p>4K 星云壁纸 · 深空配色 · 系统级主题注入，登录、桌面、锁屏浑然一体</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-em">👤</div>
+      <h3>双账户模式</h3>
+      <p>starsOS 专属账户 + 微软账户自由切换，本地账户秒开，云端同步两不误</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-em">⚡</div>
+      <h3>开机提速</h3>
+      <p>精简启动项 · 后台驻留服务按需加载，开机即用，拒绝拖沓</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-em">🏷️</div>
+      <h3>OEM 品牌注入</h3>
+      <p>系统属性显示 starsOS 专属 Logo 与信息，品牌无处不在</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-em">📦</div>
+      <h3>预装生态</h3>
+      <p>starsOS 浏览器 · 云盘客户端开箱即用，登录即连你的云</p>
+    </div>
+    <div class="feat-card">
+      <div class="feat-em">🛡️</div>
+      <h3>无人值守安装</h3>
+      <p>全自动应答 · 免交互装完即进系统，新手也能十分钟装好</p>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="ecosystem">
+  <h2 class="sec-title">starsOS <span class="gold">生态</span></h2>
+  <p class="sec-sub">一个系统，连接你的全部</p>
+  <div class="eco-grid">
+    <div class="eco-card">
+      <div class="eco-ico">🌌</div>
+      <h3>starsOS 系统</h3>
+      <p>Windows 11 25H2 深度定制版，星空主题 + 双账户 + 生态预装</p>
+      <span class="tag">v1.0</span>
+    </div>
+    <div class="eco-card">
+      <div class="eco-ico">🧭</div>
+      <h3>starsOS 浏览器</h3>
+      <p>Electron 内核 · 星空 UI · 无边框 · 广告拦截 · 翻译增强 · 全屏修复</p>
+      <span class="tag">v4.0.2 · Win / Android</span>
+    </div>
+    <div class="eco-card">
+      <div class="eco-ico">☁️</div>
+      <h3>starsOS 云盘</h3>
+      <p>私有云盘 · IPv6 直连 · WebDAV 备份 · 成员共享 · 手机零安装访问</p>
+      <span class="tag">Cloudreve 引擎</span>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="download">
+  <h2 class="sec-title">立即 <span class="gold">下载</span></h2>
+  <p class="sec-sub">安装包托管于 GitHub Releases 与私有云盘</p>
+  <div class="dl-grid">
+    <div class="dl-card">
+      <div class="dl-name">🌌 starsOS 系统镜像</div>
+      <div class="dl-desc">Win11 25H2 定制 ISO · 约 8GB</div>
+      <a class="btn small" href="http://starsos.dynv6.net:5212/" target="_blank" rel="noopener">云盘获取 ↗</a>
+    </div>
+    <div class="dl-card">
+      <div class="dl-name">🧭 starsOS 浏览器</div>
+      <div class="dl-desc">Windows · v4.0.2</div>
+      <a class="btn small" href="https://github.com/xkmyth/startos/releases" target="_blank" rel="noopener">下载</a>
+    </div>
+    <div class="dl-card">
+      <div class="dl-name">📱 starsOS 浏览器 APK</div>
+      <div class="dl-desc">Android · v2.0.0 · 星空主页</div>
+      <a class="btn small" href="https://github.com/xkmyth/startos/releases" target="_blank" rel="noopener">下载</a>
+    </div>
+    <div class="dl-card">
+      <div class="dl-name">☁️ starsOS 云盘 APK</div>
+      <div class="dl-desc">Android 客户端</div>
+      <a class="btn small" href="https://github.com/xkmyth/startos/releases" target="_blank" rel="noopener">下载</a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="guide">
+  <h2 class="sec-title">安装 <span class="gold">指南</span></h2>
+  <div class="guide-steps">
+    <div class="step"><b>1</b><p>下载镜像，解压或用 Ventoy 写入 U 盘启动</p></div>
+    <div class="step"><b>2</b><p>自动应答安装，全程免交互，装完自动创建 starsOS 账户</p></div>
+    <div class="step"><b>3</b><p>首次进入自动应用星空主题并预装生态应用</p></div>
+    <div class="step"><b>4</b><p>设置 → 账户 → 可随时绑定微软账户，双账户共存</p></div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="foot-inner">
+    <div class="foot-brand"><span class="brand-star">★</span> starsOS</div>
+    <p>基于 Windows 的个性化定制 · 仅供学习交流</p>
+    <p class="foot-links"><a href="https://github.com/xkmyth/startos" target="_blank" rel="noopener">GitHub</a> · <a href="http://starsos.dynv6.net:5212/" target="_blank" rel="noopener">云盘</a></p>
+    <p class="foot-copy">© 2026 starsOS · 星空之下，万物皆可定制</p>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
